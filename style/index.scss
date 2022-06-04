@@ -8,35 +8,10 @@
   }
 
 
-@media (max-width: 767px) {  .baloon_container .baloon { width: 56px; height: 56px; margin-bottom: 10px; } }
 
 
 
-@media (max-width: 767px) {  .baloon_container .baloon:hover { background-color: #02212c; } }
-
-
-
-@media (max-width: 767px) {  .baloon_container .baloon.close:hover { background-color: #fff !important; } }
-
-
-
-@media (max-width: 767px) {  .baloon_container .baloon.close.chat_faq:hover img:nth-child(1) { display: block; } }
-
-
-
-@media (max-width: 767px) {  .baloon_container .baloon.close.chat_faq:hover img:nth-child(2) { display: none; } }
-
-
-
-@media (max-width: 767px) {  .baloon_container .baloon.close.chat_faq:hover img:nth-child(3) { display: none; } }
-
-
-
-@media (max-width: 767px) {  .baloon_container .baloon.close .chat_cs_text_container { width: 56px; height: 56px; } }
-
-
-
-@media (max-width: 767px) {   .faq_container { width: 56px; height: 56px; box-shadow: 0 2px 4px 0px rgba(51, 51, 51, 0.33) !important; } }
+@media (max-width: 767px) {    }
 
 
 
@@ -144,11 +119,14 @@ body{
             background-color: #fff; 
         
             &:hover { 
-                background-color: $blue; 
-                #faq_icon{
-                    color: #fff;
-                    display: block;
+                @media(min-width:768px){
+                    background-color: $blue; 
+                    #faq_icon{
+                        color: #fff;
+                        display: block;
+                    }
                 }
+               
             }
             #close_icon{
                 display: none;
@@ -159,6 +137,11 @@ body{
             width: 67px;
             height: 67px;
             border-radius: 35px;
+            @media(max-width:767px){
+                width: 56px;
+                height: 56px;
+                box-shadow: 0 2px 4px 0px rgba(51, 51, 51, 0.33) !important; 
+            }
             .faq_title { 
                 transition-delay: 0.1s; opacity: 0;
             }
@@ -181,11 +164,19 @@ body{
         background-color: $blue;
         opacity: 1; 
         margin-bottom: 0;
+        @media (max-width: 767px) { 
+            width: 56px;
+            height: 56px;
+          
+        }
 
         &:hover { 
-            background-color: $blue;
+            @media(min-width:768px){
+                background-color: $blue;
+            }
+           
         }
-      
+    
         svg{
             fill: currentColor;
 
@@ -227,6 +218,7 @@ body{
         transition: all .4s ease; 
         @media(max-width:768px){
             width: 92vw;
+            padding-bottom: 56px;
         }
         .faq_title{
             h3 { 
@@ -258,7 +250,6 @@ body{
             height: 270px;
 
             @media (max-width: 767px) {   
-                height: 31vh; 
                 margin-right: 9px;
                 padding-right: 20px; 
             }
