@@ -4,24 +4,24 @@ const data = {
     subtitle:"Our FAQs may have the answer.",
     faq:[
         {
-            "q":"Does ContactsDirect accept insurance <br class='hide_mob'>Does ContactsDirect accept insurance?",
-            "a":"Absolutely. Contacts Direct accepts most major insurance plans as an in-network provider and is an out-of-network provider for many others. We can check your plan to see what savings you are eligible for and process most benefits online. Look for the 'Use insurance' toggle when you arrive in cart, and add your details to check your eligibility. You can also register with your insurance plan when creating a new account by checking the 'Yes, find my insurance plan' box. Our In-network insurances include EyeMed, Superior Vision, Aetna Vision Preferred, Anthem Blue View Vision, Humana Vision, and more!</span>"
+            "q":"Lorem ipsum dolor sit amet?",
+            "a":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt viverra lorem, at volutpat risus pellentesque vitae. Quisque suscipit elit a elit posuere, vitae faucibus nisl finibus. Vivamus congue pellentesque felis, sed pretium nunc. Aliquam porttitor tortor nec facilisis congue. Nunc dignissim et felis non auctor. Duis mi justo, pharetra."
         },
         {
-            "q":"Does ContactsDirect accept insurance?",
-            "a":"Absolutely. Contacts Direct accepts most major insurance plans as an in-network provider and is an out-of-network provider for many others. We can check your plan to see what savings you are eligible for and process most benefits online. Look for the 'Use insurance' toggle when you arrive in cart, and add your details to check your eligibility. You can also register with your insurance plan when creating a new account by checking the 'Yes, find my insurance plan' box. Our In-network insurances include EyeMed, Superior Vision, Aetna Vision Preferred, Anthem Blue View Vision, Humana Vision, and more!</span>"
+            "q":"Lorem ipsum dolor sit amet?",
+            "a":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt viverra lorem, at volutpat risus pellentesque vitae. Quisque suscipit elit a elit posuere, vitae faucibus nisl finibus. Vivamus congue pellentesque felis, sed pretium nunc. Aliquam porttitor tortor nec facilisis congue. Nunc dignissim et felis non auctor. Duis mi justo, pharetra."
         },
         {
-            "q":"Does ContactsDirect accept insurance?",
-            "a":"Absolutely. Contacts Direct accepts most major insurance plans as an in-network provider and is an out-of-network provider for many others. We can check your plan to see what savings you are eligible for and process most benefits online. Look for the 'Use insurance' toggle when you arrive in cart, and add your details to check your eligibility. You can also register with your insurance plan when creating a new account by checking the 'Yes, find my insurance plan' box. Our In-network insurances include EyeMed, Superior Vision, Aetna Vision Preferred, Anthem Blue View Vision, Humana Vision, and more!</span>"
+            "q":"Lorem ipsum dolor sit amet?",
+            "a":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt viverra lorem, at volutpat risus pellentesque vitae. Quisque suscipit elit a elit posuere, vitae faucibus nisl finibus. Vivamus congue pellentesque felis, sed pretium nunc. Aliquam porttitor tortor nec facilisis congue. Nunc dignissim et felis non auctor. Duis mi justo, pharetra."
         },
         {
-            "q":"Does ContactsDirect accept insurance?",
-            "a":"Absolutely. Contacts Direct accepts most major insurance plans as an in-network provider and is an out-of-network provider for many others. We can check your plan to see what savings you are eligible for and process most benefits online. Look for the 'Use insurance' toggle when you arrive in cart, and add your details to check your eligibility. You can also register with your insurance plan when creating a new account by checking the 'Yes, find my insurance plan' box. Our In-network insurances include EyeMed, Superior Vision, Aetna Vision Preferred, Anthem Blue View Vision, Humana Vision, and more!</span>"
+            "q":"Lorem ipsum dolor sit amet?",
+            "a":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt viverra lorem, at volutpat risus pellentesque vitae. Quisque suscipit elit a elit posuere, vitae faucibus nisl finibus. Vivamus congue pellentesque felis, sed pretium nunc. Aliquam porttitor tortor nec facilisis congue. Nunc dignissim et felis non auctor. Duis mi justo, pharetra."
         },
         {
-            "q":"Does ContactsDirect accept insurance?",
-            "a":"Absolutely. Contacts Direct accepts most major insurance plans as an in-network provider and is an out-of-network provider for many others. We can check your plan to see what savings you are eligible for and process most benefits online. Look for the 'Use insurance' toggle when you arrive in cart, and add your details to check your eligibility. You can also register with your insurance plan when creating a new account by checking the 'Yes, find my insurance plan' box. Our In-network insurances include EyeMed, Superior Vision, Aetna Vision Preferred, Anthem Blue View Vision, Humana Vision, and more!</span>"
+            "q":"Lorem ipsum dolor sit amet?",
+            "a":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt viverra lorem, at volutpat risus pellentesque vitae. Quisque suscipit elit a elit posuere, vitae faucibus nisl finibus. Vivamus congue pellentesque felis, sed pretium nunc. Aliquam porttitor tortor nec facilisis congue. Nunc dignissim et felis non auctor. Duis mi justo, pharetra."
         }
     ],
     cta:{
@@ -144,80 +144,3 @@ function append_chat(){
 
 
 
-
-
-
-
-
-// //HIDE on KEYBOARD OPEN
-// function onKeyboardOnOff(isOpen) {
-//     // Write down your handling code
-//     if (isOpen) {
-//         $('.baloon_container').addClass('_hide__keyboard');
-//     } else {
-//         $('.baloon_container').removeClass('_hide__keyboard');
-//     }
-// }
-
-// var originalPotion = false;
-// $(document).ready(function(){
-//     if (originalPotion === false) originalPotion = $(window).width() + $(window).height();
-// });
-
-// /**
-//  * Determine the mobile operating system.
-//  * This function returns one of 'iOS', 'Android', 'Windows Phone', or 'unknown'.
-//  *
-//  * @returns {String}
-//  */
-// function getMobileOperatingSystem() {
-//     var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-
-//       // Windows Phone must come first because its UA also contains "Android"
-//     if (/windows phone/i.test(userAgent)) {
-//         return "winphone";
-//     }
-
-//     if (/android/i.test(userAgent)) {
-//         return "android";
-//     }
-
-//     // iOS detection from: http://stackoverflow.com/a/9039885/177710
-//     if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-//         return "ios";
-//     }
-
-//     return "";
-// }
-
-// function applyAfterResize() {
-
-//     if (getMobileOperatingSystem() != 'ios') {
-//         if (originalPotion !== false) {
-//             var wasWithKeyboard = $('body').hasClass('view-withKeyboard');
-//             var nowWithKeyboard = false;
-
-//                 var diff = Math.abs(originalPotion - ($(window).width() + $(window).height()));
-//                 if (diff > 100) nowWithKeyboard = true;
-
-//             $('body').toggleClass('view-withKeyboard', nowWithKeyboard);
-//             if (wasWithKeyboard != nowWithKeyboard) {
-//                 onKeyboardOnOff(nowWithKeyboard);
-//             }
-//         }
-//     }
-// }
-
-// $(document).on('focus blur', 'select, textarea, input[type=text], input[type=date], input[type=password], input[type=email], input[type=number]', function(e){
-//     var $obj = $(this);
-//     var nowWithKeyboard = (e.type == 'focusin');
-//     $('body').toggleClass('view-withKeyboard', nowWithKeyboard);
-//     onKeyboardOnOff(nowWithKeyboard);
-// });
-
-// if(  getMobileOperatingSystem() != 'ios'){
-//     $(window).on('resize orientationchange', function(){
-//         applyAfterResize();
-
-//     });
-// }
