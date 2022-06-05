@@ -1,6 +1,6 @@
 # Floating FAQ
 
-This is a simple plug & play tool that can display FAQ with accordions.
+This is a simple plug & play tool that can display a floating popup that once open shows FAQ with accordions.
 
 ### Popup closed
 ![Schermata 2022-06-05 alle 11 49 10](https://user-images.githubusercontent.com/38910091/172044934-bd1508ab-3f10-4206-9cf8-59b8c376ef69.png)
