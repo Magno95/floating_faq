@@ -2,8 +2,10 @@
 
 //var 
 $main-color: #02212c;
+$main-font:  'Poppins', serif;
 $mobile: 767px;
 $desk:768px;
+
 
 body{
     margin: 0;
@@ -11,7 +13,7 @@ body{
     min-height:500px;
 }
 *{
-    font-family: 'Poppins', serif !important;
+    font-family:$main-font;
 }
 
 .hide_desk {
